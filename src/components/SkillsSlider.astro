@@ -1,0 +1,66 @@
+---
+import AstroIcon from "./icons/Astro.astro"
+import CSSIcon from "./icons/CSS.astro"
+import GitIcon from "./icons/Git.astro"
+import HTMLIcon from "./icons/HTML.astro"
+import JavaScriptIcon from "./icons/JavaScript.astro"
+import LaravelIcon from "./icons/Laravel.astro"
+import MySQLIcon from "./icons/MySQL.astro"
+import PHPIcon from "./icons/PHP.astro"
+import TailwindIcon from "./icons/Tailwind.astro"
+import VueIcon from "./icons/Vue.astro"
+
+const skills = [
+  { name: "PHP", icon: PHPIcon },
+  { name: "Laravel", icon: LaravelIcon },
+  { name: "MySQL", icon: MySQLIcon },
+  { name: "JavaScript", icon: JavaScriptIcon },
+  { name: "Vue.js", icon: VueIcon },
+  { name: "HTML5", icon: HTMLIcon },
+  { name: "CSS3", icon: CSSIcon },
+  { name: "Tailwind", icon: TailwindIcon },
+  { name: "Astro", icon: AstroIcon },
+  { name: "Git", icon: GitIcon },
+]
+---
+
+<div>
+  <!-- Marquee banner -->
+  <div class="overflow-hidden whitespace-nowrap w-full mb-10">
+    <div class="flex animate-scroll-marquee space-x-5 text-slate-300 items-center uppercase">
+      {[...Array(8)].map(() => (
+        <div class="space-x-2 flex items-center flex-shrink-0">
+          <p class="inline-block text-lg sm:text-xl lg:text-2xl font-bold tracking-widest">TECNOLOGÍAS</p>
+          <svg width="0.94em" height="1em" viewBox="0 0 15 16" class="inline-block"><path fill="currentColor" d="M5.49 8.878 0 7.283l.836-2.676 5.492 1.986L6.163.5h2.783l-.182 6.18 5.4-1.948L15 7.424 9.418 9.037l3.6 4.8-2.254 1.663-3.382-5.1-3.272 4.976-2.274-1.612z"/></svg>
+          <svg width="2.94em" height="1em" viewBox="0 0 47 16" class="inline-block"><path fill="currentColor" d="M46.207 8.707a1 1 0 0 0 0-1.414L39.843.929a1 1 0 1 0-1.414 1.414L44.086 8l-5.657 5.657a1 1 0 0 0 1.414 1.414zM.5 9h45V7H.5z"/></svg>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <!-- Skills grid -->
+  <div class="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-5">
+    {skills.map((skill) => (
+      <div class="w-full py-3 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-slate-200 hover:border-teal-300 hover:bg-teal-50/30 transition-colors cursor-default text-teal-600">
+        <skill.icon class="size-6 lg:size-7" />
+        <p class="capitalize text-sm sm:text-base font-medium text-slate-700">{skill.name}</p>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  .animate-scroll-marquee {
+    animation: marquee 20s linear infinite;
+    width: max-content;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+</style>

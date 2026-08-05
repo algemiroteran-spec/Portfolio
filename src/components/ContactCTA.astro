@@ -1,0 +1,33 @@
+---
+import MailIcon from "./icons/Mail.astro"
+import ArrowRight from "./icons/ArrowRight.astro"
+---
+
+<div class="text-center max-w-xl mx-auto">
+  <h2 class="text-2xl font-bold text-slate-800 mb-4">
+    ¿Buscas un desarrollador para tu equipo?
+  </h2>
+  <p class="text-slate-600 mb-8 leading-relaxed">
+    Estoy disponible para oportunidades como Desarrollador Web Full Stack.
+    Si necesitas a alguien con experiencia en PHP, Laravel, Vue.js y bases de datos,
+    estaré encantado de conversar.
+  </p>
+  <div class="flex flex-col sm:flex-row gap-4 justify-center">
+    <a
+      href="mailto:jokeros121@gmail.com"
+      class="group inline-flex items-center justify-center gap-2 px-6 py-3 text-white bg-teal-600 rounded-lg hover:bg-teal-700 transition-colors font-medium text-sm shadow-sm hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+    >
+      <MailIcon class="size-4" />
+      Envíame un mensaje
+      <ArrowRight class="size-4 transition-transform group-hover:translate-x-0.5" />
+    </a>
+    <a
+      href="https://linkedin.com/in/algemiro-teran"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center justify-center gap-2 px-6 py-3 text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 transition-colors font-medium text-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2"
+    >
+      Conecta en LinkedIn
+    </a>
+  </div>
+</div>

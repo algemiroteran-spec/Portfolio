@@ -1,27 +1,26 @@
 ---
-import HeartFilled from "./icons/HeartFilled.astro"
+import GitHubIcon from "./icons/GitHub.astro"
+import LinkedInIcon from "./icons/LinkedIn.astro"
+import MailIcon from "./icons/Mail.astro"
 const currentYear = new Date().getFullYear()
 ---
 
-<footer
-  class="opacity-80 m-4 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-10 flex justify-center"
->
-  <div
-    class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4 flex flex-col md:flex-row items-center gap-4"
-  >
-    <span class="text-sm text-center text-pretty md:text-left text-zinc-800/90 dark:text-zinc-200/90"
-      >&copy; {currentYear}
-      <a href="https://midu.dev/" class="hover:underline">midudev</a>. Hecho con <HeartFilled class="size-3.5 text-red-500 inline" aria-label="amor" /> Casi
-      todos los derechos reservados
-    </span>
-    <ul
-      class="flex flex-wrap items-center text-sm font-medium dark:text-white/90"
-    >
-      <li>
-        <a id="contacto" href="mailto:miduga@gmail.com" class="hover:underline"
-          >Contacto</a
-        >
-      </li>
-    </ul>
+<footer class="mt-24 mb-10 w-full mx-auto container lg:max-w-4xl md:max-w-2xl px-4">
+  <div class="border-t border-slate-200 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+    <div class="flex flex-col items-center md:items-start gap-1">
+      <span class="text-sm font-semibold text-slate-800">Algemiro José Terán Oviedo</span>
+      <span class="text-sm text-slate-500">&copy; {currentYear} — Desarrollador Web Full Stack</span>
+    </div>
+    <div class="flex items-center gap-6">
+      <a href="mailto:jokeros121@gmail.com" class="text-slate-400 hover:text-teal-600 transition-colors" aria-label="Email">
+        <MailIcon class="size-5" />
+      </a>
+      <a href="https://linkedin.com/in/algemiro-teran" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-teal-600 transition-colors" aria-label="LinkedIn">
+        <LinkedInIcon class="size-5" />
+      </a>
+      <a href="https://github.com/jokeros121" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-teal-600 transition-colors" aria-label="GitHub">
+        <GitHubIcon class="size-5" />
+      </a>
+    </div>
   </div>
 </footer>

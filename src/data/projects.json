@@ -1,17 +1,29 @@
 [
   {
-    "title": "SVGL - A beautiful library with SVG logos",
-    "description": "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    "link": "https://svgl.vercel.app/",
-    "github": "https://github.com/pheralb/svgl",
-    "image": "/projects/svgl.webp",
-    "tags": ["NEXT", "TAILWIND"]
+    "title": "Hoteliums — SaaS de Gestión Hotelera",
+    "description": "Plataforma SaaS multi-tenant para administración integral de hoteles. Incluye módulos de reservas, gestión de habitaciones, check-in/out, facturación electrónica y panel de reportes. Construido con Laravel en el backend y Vue.js + Tailwind CSS en el frontend.",
+    "role": "Desarrollador Full Stack",
+    "link": "https://hoteliums.app",
+    "github": "https://github.com/jokeros121/hoteliums",
+    "image": "/projects/hoteliums.webp",
+    "tags": ["LARAVEL", "VUE", "TAILWIND", "MYSQL"]
   },
   {
-    "title": "AdventJS - Retos de programación con JavaScript y TypeScript",
-    "description": "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    "link": "https://adventjs.dev",
-    "image": "/projects/adventjs.webp",
-    "tags": ["NEXT", "TAILWIND"]
+    "title": "Ingeniería Proyectos y Servicios",
+    "description": "Sitio web corporativo de alto rendimiento con puntuación Lighthouse 95+ en todas las métricas. Desarrollado con Astro para carga estática ultrarrápida. Optimizado para SEO local y conversión de clientes potenciales mediante formularios estratégicos.",
+    "role": "Desarrollador Frontend",
+    "link": "https://ingenieriaenproyectosyservicios.com",
+    "github": "https://github.com/jokeros121/ingenieria-proyectos",
+    "image": "/projects/ingenieria.webp",
+    "tags": ["ASTRO", "TAILWIND"]
+  },
+  {
+    "title": "MS Auditores — Firma de Auditoría",
+    "description": "Sitio web institucional con diseño orientado a generar confianza en clientes empresariales. Secciones de servicios, equipo y casos de éxito. Desplegado en Netlify con formulario de contacto funcional y optimización de carga en dispositivos móviles.",
+    "role": "Desarrollador Frontend",
+    "link": "https://msauditores.netlify.app",
+    "github": "https://github.com/jokeros121/ms-auditores",
+    "image": "/projects/msauditores.webp",
+    "tags": ["ASTRO", "TAILWIND"]
   }
 ]

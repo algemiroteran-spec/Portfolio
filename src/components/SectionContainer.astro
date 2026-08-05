@@ -1,10 +1,11 @@
 ---
-const { class: className, id } = Astro.props
+const { class: className, id, "data-parallax": parallax } = Astro.props
 ---
 
 <section
   id={id}
   data-section={id}
+  data-parallax={parallax || undefined}
   class={`section ${className} scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl`}
 >
   <slot />

@@ -1,22 +1,26 @@
 [
   {
-    "date": "Septiembre 2022 - Actualidad",
-    "title": "Creador de Contenido",
-    "company": "Twitch",
-    "description": "Divulgo sobre programación y desarrollo web en diferentes plataformas. Galardonado como mejor creador de contenido de habla no-inglesa en 2022 y mejor comunidad en 2023 por GitHub.",
-    "link": "https://twitch.tv/midudev",
-    "current": true
+    "date": "Septiembre 2025 - Agosto 2026",
+    "title": "Desarrollador de Software",
+    "company": "Plaza Educativa GYS S.A.S.",
+    "link": "",
+    "achievements": [
+      "Desarrollo y mantenimiento de plataformas web educativas con PHP, Laravel y MySQL, asegurando disponibilidad para cientos de usuarios",
+      "Implementación de nuevos módulos con Vue.js, mejorando la experiencia de administradores y estudiantes",
+      "Optimización de consultas SQL y estructura de base de datos, reduciendo tiempos de carga en más del 40%",
+      "Despliegue de actualizaciones en producción, incluyendo pruebas de calidad y soporte post-lanzamiento"
+    ],
+    "current": false
   },
   {
-    "date": "Junio 2016 - Septiembre 2022",
-    "title": "Lead Frontend Architect",
-    "company": "Adevinta Spain",
-    "description": "Parte del equipo Enablers Frontend en Adevinta Spain. Nuestra misión era conseguir que todos los verticales (Fotocasa, MilAnuncios, Habitaclia, Coches.net, Infojobs) convergieran tecnológicamente, con una arquitectura moderna, flexible y optimizada, fomentando buenas prácticas y dando talleres para compartir conocimiento."
-  },
-  {
-    "date": "Marzo 2011 - Mayo 2016",
-    "title": "Senior Full-Stack Developer",
-    "company": "Hubii",
-    "description": "Start-up sobre localización de noticias y servicios de información. Desarrollé el website con Jade, BEM, Stylus y CoffeeScript; app de Firefox OS offline-first a 60fps; app de Smart TV con accesibilidad por mando a distancia y push notifications; y una API de Insights con NodeJS, Swagger y MongoDB para parsear contenido web con Big Data."
+    "date": "Octubre 2025 - Noviembre 2025",
+    "title": "Desarrollador Web Freelance",
+    "company": "Freelance",
+    "link": "",
+    "achievements": [
+      "Desarrollo de sitios web corporativos para empresas de servicios y auditoría, desde la toma de requisitos hasta el despliegue",
+      "Implementación de interfaces responsivas, optimizadas para SEO y conversión de leads",
+      "Configuración de hosting, dominios y despliegue continuo, asegurando tiempo de actividad del 99.9%"
+    ]
   }
 ]
